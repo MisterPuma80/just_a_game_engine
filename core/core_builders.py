@@ -102,63 +102,6 @@ def make_authors_header(target, source, env):
         g.write("#endif // AUTHORS_GEN_H\n")
 
 
-def make_donors_header(target, source, env):
-    sections = [
-        "Patrons",
-        "Platinum sponsors",
-        "Gold sponsors",
-        "Silver sponsors",
-        "Diamond members",
-        "Titanium members",
-        "Platinum members",
-        "Gold members",
-    ]
-    sections_id = [
-        "DONORS_PATRONS",
-        "DONORS_SPONSORS_PLATINUM",
-        "DONORS_SPONSORS_GOLD",
-        "DONORS_SPONSORS_SILVER",
-        "DONORS_MEMBERS_DIAMOND",
-        "DONORS_MEMBERS_TITANIUM",
-        "DONORS_MEMBERS_PLATINUM",
-        "DONORS_MEMBERS_GOLD",
-    ]
-
-    src = str(source[0])
-    dst = str(target[0])
-    with open(src, "r", encoding="utf-8") as f, open(dst, "w", encoding="utf-8", newline="\n") as g:
-        g.write("/* THIS FILE IS GENERATED DO NOT EDIT */\n")
-        g.write("#ifndef DONORS_GEN_H\n")
-        g.write("#define DONORS_GEN_H\n")
-
-        reading = False
-
-        def close_section():
-            g.write("\t0\n")
-            g.write("};\n")
-
-        for line in f:
-            if reading >= 0:
-                if line.startswith("    "):
-                    g.write('\t"' + escape_string(line.strip()) + '",\n')
-                    continue
-            if line.startswith("## "):
-                if reading:
-                    close_section()
-                    reading = False
-                for section, section_id in zip(sections, sections_id):
-                    if line.strip().endswith(section):
-                        current_section = escape_string(section_id)
-                        reading = True
-                        g.write("const char *const " + current_section + "[] = {\n")
-                        break
-
-        if reading:
-            close_section()
-
-        g.write("#endif // DONORS_GEN_H\n")
-
-
 def make_license_header(target, source, env):
     src_copyright = str(source[0])
     src_license = str(source[1])
