@@ -1889,7 +1889,7 @@ msgstr "نام پوشه معتبر است."
 msgid "Double-click to open in browser."
 msgstr "برای باز کردن در مرورگر دو بار کلیک کنید."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "با تشکر از سوی جامعهٔ گودوت!"
 
 msgid "(unknown)"
@@ -1955,7 +1955,7 @@ msgid "Third-party Licenses"
 msgstr "پروانه‌های شخص ثالث"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3064,7 +3064,7 @@ msgstr "گزارش یک مشکل"
 msgid "Suggest a Feature"
 msgstr "پیشنهاد یک ویژگی"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "از توسعه گودو حمایت کنید"
 
 msgid "Update Continuously"

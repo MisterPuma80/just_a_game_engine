@@ -1622,7 +1622,7 @@ msgstr "O nome do cartafol é válido."
 msgid "Double-click to open in browser."
 msgstr "Dobre-clic para abrir no navegador."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Moitas grazas de parte da comunidade de Godot!"
 
 msgid "(unknown)"
@@ -1669,7 +1669,7 @@ msgid "Third-party Licenses"
 msgstr "Licenzas de Terceiros"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."

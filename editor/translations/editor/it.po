@@ -2042,7 +2042,7 @@ msgstr "Il nome della cartella è valido."
 msgid "Double-click to open in browser."
 msgstr "Doppio clic per aprire nel browser."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Grazie dalla comunità di Godot!"
 
 msgid "(unknown)"
@@ -2108,7 +2108,7 @@ msgid "Third-party Licenses"
 msgstr "Licenze di terze parti"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -4121,10 +4121,10 @@ msgstr "Suggerisci una funzionalità"
 msgid "Send Docs Feedback"
 msgstr "Manda un parere sulla documentazione"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "Info su Godot..."
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Supporta lo sviluppo di Godot"
 
 msgid ""

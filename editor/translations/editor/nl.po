@@ -2010,7 +2010,7 @@ msgstr "Mapnaam is ongeldig."
 msgid "Double-click to open in browser."
 msgstr "Dubbelklik om in een browser te openen."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Bedankt van de Godot-gemeenschap!"
 
 msgid "(unknown)"
@@ -2076,7 +2076,7 @@ msgid "Third-party Licenses"
 msgstr "Licenties van derden"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3808,10 +3808,10 @@ msgstr "Stel een functie voor"
 msgid "Send Docs Feedback"
 msgstr "Stuur documentatie­feedback"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "Over Godot…"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Steun Godot-ontwikkeling"
 
 msgid ""

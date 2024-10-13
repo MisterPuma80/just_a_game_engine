@@ -1703,7 +1703,7 @@ msgstr "Název složky je platný."
 msgid "Double-click to open in browser."
 msgstr "Dvakrát klikněte pro otevření v prohlížeči."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Děkujeme za komunitu Godotu!"
 
 msgid "(unknown)"
@@ -1769,7 +1769,7 @@ msgid "Third-party Licenses"
 msgstr "Licence třetích stran"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3346,7 +3346,7 @@ msgstr "Navrhnout funkci"
 msgid "Send Docs Feedback"
 msgstr "Odeslat zpětnou vazbu dokumentace"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Podpořte projekt Godot"
 
 msgid ""

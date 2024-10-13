@@ -1258,7 +1258,7 @@ msgstr "ไม่สามารถสร้างโฟลเดอร์"
 msgid "Create Folder"
 msgstr "สร้างโฟลเดอร์"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "ขอขอบคุณจากชุมชนผู้ใช้ Godot!"
 
 msgid "Godot Engine contributors"
@@ -1295,7 +1295,7 @@ msgid "Third-party Licenses"
 msgstr "สัญญาอนุญาตจากบุคคลที่สาม"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."

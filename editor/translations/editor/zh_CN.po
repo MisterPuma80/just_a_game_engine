@@ -1996,7 +1996,7 @@ msgstr "文件夹名称有效。"
 msgid "Double-click to open in browser."
 msgstr "双击在浏览器中打开。"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Godot 社区感谢大家！"
 
 msgid "(unknown)"
@@ -2062,7 +2062,7 @@ msgid "Third-party Licenses"
 msgstr "第三方许可证"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3962,10 +3962,10 @@ msgstr "提交新特性建议"
 msgid "Send Docs Feedback"
 msgstr "发送文档反馈"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "关于 Godot..."
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "支持 Godot 开发"
 
 msgid ""

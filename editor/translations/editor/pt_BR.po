@@ -2116,7 +2116,7 @@ msgstr "O nome da pasta é válido."
 msgid "Double-click to open in browser."
 msgstr "Faça um duplo clique para abrir no navegador."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Agradecimentos da comunidade Godot!"
 
 msgid "(unknown)"
@@ -2182,7 +2182,7 @@ msgid "Third-party Licenses"
 msgstr "Licenças de Terceiros"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -4167,10 +4167,10 @@ msgstr "Sugira uma Funcionalidade"
 msgid "Send Docs Feedback"
 msgstr "Enviar Sugestão de Docs"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "Sobre o Godot..."
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Apoie o Desenvolvimento do Godot"
 
 msgid ""

@@ -1951,7 +1951,7 @@ msgstr "資料夾名稱為空。"
 msgid "Double-click to open in browser."
 msgstr "雙擊以在瀏覽器中開啟。"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Godot 社群感謝你！"
 
 msgid "(unknown)"
@@ -2017,7 +2017,7 @@ msgid "Third-party Licenses"
 msgstr "第三方授權條款"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3919,10 +3919,10 @@ msgstr "提出功能建議"
 msgid "Send Docs Feedback"
 msgstr "傳送說明文件回饋"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "關於 Godot…"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "支援 Godot 開發"
 
 msgid ""

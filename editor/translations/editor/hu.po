@@ -1217,7 +1217,7 @@ msgstr "Nem sikerült létrehozni a mappát."
 msgid "Create Folder"
 msgstr "Mappa Létrehozása"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Köszönet a Godot közösségétől!"
 
 msgid "Godot Engine contributors"
@@ -1254,7 +1254,7 @@ msgid "Third-party Licenses"
 msgstr "Harmadik féltől származó licencek"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."

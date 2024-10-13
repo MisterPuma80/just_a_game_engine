@@ -2013,7 +2013,7 @@ msgstr "اسم المجلد صالح."
 msgid "Double-click to open in browser."
 msgstr "ضغطة مضاعفة لفتح متصفح الانترنت."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "شكراً من مجتمع جوْدَتْ!"
 
 msgid ""
@@ -2076,7 +2076,7 @@ msgid "Third-party Licenses"
 msgstr "تراخيص الجهات الخارجية"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3911,10 +3911,10 @@ msgstr "اقترح ميزة"
 msgid "Send Docs Feedback"
 msgstr "إرسال الاستدراكات على \"التوثيقات\""
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "حول Godot..."
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "ادعم تطوير جَوْدَتْ"
 
 msgid "Update Continuously"

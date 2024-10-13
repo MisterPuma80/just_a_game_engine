@@ -1343,7 +1343,7 @@ msgstr "Tidak dapat mencipta folder."
 msgid "Create Folder"
 msgstr "Cipta Folder"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Terima kasih dari komuniti Godot!"
 
 msgid "Godot Engine contributors"
@@ -1380,7 +1380,7 @@ msgid "Third-party Licenses"
 msgstr "Lesen Pihak Ketiga"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -2291,7 +2291,7 @@ msgstr "Cadangkan Ciri"
 msgid "Send Docs Feedback"
 msgstr "Hantar Maklum Balas Dokumen"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Sokong Pembangunan Godot"
 
 msgid "Update Continuously"

@@ -2017,7 +2017,7 @@ msgstr "Nazwa folderu jest prawidłowa."
 msgid "Double-click to open in browser."
 msgstr "Kliknij dwukrotnie, aby otworzyć w przeglądarce."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Podziękowania od społeczności Godota!"
 
 msgid "(unknown)"
@@ -2083,7 +2083,7 @@ msgid "Third-party Licenses"
 msgstr "Licencje zewnętrzne"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -4064,10 +4064,10 @@ msgstr "Zasugeruj funkcjonalność"
 msgid "Send Docs Feedback"
 msgstr "Oceń dokumentację"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "O Godocie..."
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Wesprzyj rozwój Godota"
 
 msgid ""

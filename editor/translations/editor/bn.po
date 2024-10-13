@@ -1481,7 +1481,7 @@ msgstr "ফোল্ডার তৈরি করুন"
 msgid "Folder name is valid."
 msgstr "ফোল্ডার নামটি গ্রহণযোগ্য।"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Godot কমিউনিটি হতে আপনাকে ধন্যবাদ!"
 
 msgid "Godot Engine contributors"
@@ -2299,7 +2299,7 @@ msgstr "সাহায্য অনুসন্ধান করুন…"
 msgid "Online Documentation"
 msgstr "অনলাইন ডকুমেন্টেশন"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "Godot সম্পর্কে…"
 
 msgid "Inspector"

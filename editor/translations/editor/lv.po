@@ -1121,7 +1121,7 @@ msgstr "Neizdevās izveidot mapi."
 msgid "Create Folder"
 msgstr "Izveidot mapi"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Paldies no Godot sabiedrības!"
 
 msgid "Godot Engine contributors"
@@ -1158,7 +1158,7 @@ msgid "Third-party Licenses"
 msgstr "Trešās partijas Licences"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -2059,7 +2059,7 @@ msgstr "Ieteikt Iespēju"
 msgid "Send Docs Feedback"
 msgstr "Sūtīt dokumentu atsauksmi"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Atbalstīt Godot izstrādi"
 
 msgid "Update Continuously"

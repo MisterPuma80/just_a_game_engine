@@ -1948,7 +1948,7 @@ msgstr "Nama berkas sudah valid."
 msgid "Double-click to open in browser."
 msgstr "Klik dua kali untuk membuka di browser."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Terimakasih dari komunitas Godot!"
 
 msgid "(unknown)"
@@ -2011,7 +2011,7 @@ msgid "Third-party Licenses"
 msgstr "Lisensi Pihak Ketiga"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3641,7 +3641,7 @@ msgstr "Sarankan Fitur"
 msgid "Send Docs Feedback"
 msgstr "Kirim Tanggapan Dokumentasi"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Dukung pengembangan Godot"
 
 msgid ""

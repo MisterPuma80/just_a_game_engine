@@ -1467,7 +1467,7 @@ msgstr "Δημιουργία νέου φακέλου στο %s:"
 msgid "Create Folder"
 msgstr "Δημιουργία φακέλου"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Ευχαριστίες από την κοινότητα της Godot!"
 
 msgid "Godot Engine contributors"
@@ -1504,7 +1504,7 @@ msgid "Third-party Licenses"
 msgstr "Άδειες τρίτων κατασκευαστών"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -2461,7 +2461,7 @@ msgstr "Αναφορά Σφάλματος"
 msgid "Send Docs Feedback"
 msgstr "Αποστολή Σχολίων Τεκμηρίωσης"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Υποστηρίξτε την ανάπτυξη του Godot"
 
 msgid "Update Continuously"

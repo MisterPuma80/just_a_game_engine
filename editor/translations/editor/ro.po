@@ -902,7 +902,7 @@ msgstr "Directorul nu a putut fi creat."
 msgid "Create Folder"
 msgstr "Creare folder"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Mulțumesc din partea comunităţii Godot!"
 
 msgid "Godot Engine contributors"
@@ -943,7 +943,7 @@ msgid "Third-party Licenses"
 msgstr "Licenţe Thirdparty"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
