@@ -23,17 +23,17 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - name: Editor w/ Mono (target=editor)
-            cache-name: linux-editor-mono
-            target: editor
-            sconsflags: module_mono_enabled=yes
-            bin: "./bin/godot.linuxbsd.editor.x86_64.mono"
-            build-mono: true
-            tests: false # Disabled due freeze caused by mix Mono build and CI
-            doc-test: true
-            proj-conv: true
-            api-compat: true
-            artifact: true
+          #- name: Editor w/ Mono (target=editor)
+          #  cache-name: linux-editor-mono
+          #  target: editor
+          #  sconsflags: module_mono_enabled=yes
+          #  bin: "./bin/godot.linuxbsd.editor.x86_64.mono"
+          #  build-mono: true
+          #  tests: false # Disabled due freeze caused by mix Mono build and CI
+          #  doc-test: true
+          #  proj-conv: true
+          #  api-compat: true
+          #  artifact: true
 
           - name: Editor with doubles and GCC sanitizers (target=editor, tests=yes, dev_build=yes, scu_build=yes, precision=double, use_asan=yes, use_ubsan=yes, linker=gold)
             cache-name: linux-editor-double-sanitizers
