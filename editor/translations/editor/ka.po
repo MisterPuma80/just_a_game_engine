@@ -1091,7 +1091,7 @@ msgstr "საქაღალდის შექმნა"
 msgid "Folder name is valid."
 msgstr "საქაღალდის სახელი სწორია."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "მადლობა Godot საზოგადოებისგან!"
 
 msgid "Godot Engine contributors"

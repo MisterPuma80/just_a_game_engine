@@ -1149,7 +1149,7 @@ msgstr "Tạo thư mục mới ở %s:"
 msgid "Create Folder"
 msgstr "Tạo thư mục"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Cảm ơn từ cộng đồng Godot!"
 
 msgid "Godot Engine contributors"
@@ -1190,7 +1190,7 @@ msgid "Third-party Licenses"
 msgstr "Giấy phép bên thứ ba"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -2132,7 +2132,7 @@ msgstr "Gợi ý một tính năng"
 msgid "Send Docs Feedback"
 msgstr "Gửi ý kiến phản hồi về hướng dẫn"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Hỗ trợ phát triển Godot"
 
 msgid "Update Continuously"

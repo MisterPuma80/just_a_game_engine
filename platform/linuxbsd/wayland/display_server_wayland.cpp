@@ -1462,7 +1462,7 @@ DisplayServerWayland::DisplayServerWayland(const String &p_rendering_driver, Win
 	wd.flags = p_flags;
 	wd.vsync_mode = p_vsync_mode;
 	wd.rect.size = p_resolution;
-	wd.title = "Godot";
+	wd.title = "Just a Game Engine";
 
 	_show_window();
 

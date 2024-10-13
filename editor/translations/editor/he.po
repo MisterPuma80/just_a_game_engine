@@ -1136,7 +1136,7 @@ msgstr "שם התיקייה תקין."
 msgid "Double-click to open in browser."
 msgstr "לחיצה כפולה לפתיחה בדפדפן."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "תודות מקהילת Godot!"
 
 msgid "(unknown)"
@@ -1195,7 +1195,7 @@ msgid "Third-party Licenses"
 msgstr "רשיונות צד שלישי"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."

@@ -1947,7 +1947,7 @@ msgstr "Mapp-namnet är giltigt."
 msgid "Double-click to open in browser."
 msgstr "Dubbelklicka för att öppna i webbläsare."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Tack från Godot-gemenskapen!"
 
 msgid "(unknown)"
@@ -2013,7 +2013,7 @@ msgid "Third-party Licenses"
 msgstr "Tredje parts Licens"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3670,7 +3670,7 @@ msgstr "Föreslå en ny funktion"
 msgid "Send Docs Feedback"
 msgstr "Skicka Dokumentations Feedback"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Supporta utvecklingen av Godot"
 
 msgid ""

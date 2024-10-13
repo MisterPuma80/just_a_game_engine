@@ -1987,7 +1987,7 @@ msgstr "フォルダ名は有効です。"
 msgid "Double-click to open in browser."
 msgstr "ダブルクリックでブラウザを開く。"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Godot コミュニティより感謝を！"
 
 msgid "(unknown)"
@@ -2053,7 +2053,7 @@ msgid "Third-party Licenses"
 msgstr "サードパーティーライセンス"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -4011,10 +4011,10 @@ msgstr "機能を提案する"
 msgid "Send Docs Feedback"
 msgstr "ドキュメントのフィードバックを送る"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "Godotについて…"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Godotの開発をサポートする"
 
 msgid ""

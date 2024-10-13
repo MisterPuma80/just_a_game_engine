@@ -1972,7 +1972,7 @@ msgstr "폴더 이름이 올바릅니다."
 msgid "Double-click to open in browser."
 msgstr "더블 클릭하여 브라우저에서 엽니다."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Godot 커뮤니티에서 감사드립니다!"
 
 msgid "(unknown)"
@@ -2038,7 +2038,7 @@ msgid "Third-party Licenses"
 msgstr "제 3자 라이선스"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3863,10 +3863,10 @@ msgstr "기능 제안"
 msgid "Send Docs Feedback"
 msgstr "문서 피드백 보내기"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "Godot 정보..."
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Godot 개발 지원"
 
 msgid ""

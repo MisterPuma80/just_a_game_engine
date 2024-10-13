@@ -31,7 +31,6 @@
 #include "editor_about.h"
 
 #include "core/authors.gen.h"
-#include "core/donors.gen.h"
 #include "core/license.gen.h"
 #include "core/os/time.h"
 #include "core/version.h"
@@ -176,7 +175,7 @@ ScrollContainer *EditorAbout::_populate_list(const String &p_name, const List<St
 }
 
 EditorAbout::EditorAbout() {
-	set_title(TTR("Thanks from the Godot community!"));
+	set_title(TTR("Thanks from the Just a Game Engine community!"));
 	set_hide_on_ok(true);
 
 	VBoxContainer *vbc = memnew(VBoxContainer);
@@ -221,7 +220,8 @@ EditorAbout::EditorAbout() {
 	Label *about_text = memnew(Label);
 	about_text->set_v_size_flags(Control::SIZE_SHRINK_CENTER);
 	about_text->set_text(
-			String::utf8("\xc2\xa9 2014-present ") + TTR("Godot Engine contributors") + "." +
+			String::utf8("\xc2\xa9 2024 ") + TTR("Just a Game Engine contributors") + "." +
+			String::utf8("\n\xc2\xa9 2014-present ") + TTR("Godot Engine contributors") + "." +
 			String::utf8("\n\xc2\xa9 2007-2014 Juan Linietsky, Ariel Manzur.\n"));
 	version_info_vbc->add_child(about_text);
 
@@ -250,29 +250,6 @@ EditorAbout::EditorAbout() {
 	};
 	tc->add_child(_populate_list(TTR("Authors"), dev_sections, dev_src, 0b1)); // First section (Project Founders) is always one column.
 
-	// Donors.
-
-	List<String> donor_sections;
-	donor_sections.push_back(TTR("Patrons"));
-	donor_sections.push_back(TTR("Platinum Sponsors"));
-	donor_sections.push_back(TTR("Gold Sponsors"));
-	donor_sections.push_back(TTR("Silver Sponsors"));
-	donor_sections.push_back(TTR("Diamond Members"));
-	donor_sections.push_back(TTR("Titanium Members"));
-	donor_sections.push_back(TTR("Platinum Members"));
-	donor_sections.push_back(TTR("Gold Members"));
-	const char *const *donor_src[] = {
-		DONORS_PATRONS,
-		DONORS_SPONSORS_PLATINUM,
-		DONORS_SPONSORS_GOLD,
-		DONORS_SPONSORS_SILVER,
-		DONORS_MEMBERS_DIAMOND,
-		DONORS_MEMBERS_TITANIUM,
-		DONORS_MEMBERS_PLATINUM,
-		DONORS_MEMBERS_GOLD,
-	};
-	tc->add_child(_populate_list(TTR("Donors"), donor_sections, donor_src, 0b1, true)); // First section (Patron) is one column.
-
 	// License.
 
 	license_text_label = memnew(RichTextLabel);
@@ -293,7 +270,7 @@ EditorAbout::EditorAbout() {
 	Label *tpl_label = memnew(Label);
 	tpl_label->set_h_size_flags(Control::SIZE_EXPAND_FILL);
 	tpl_label->set_autowrap_mode(TextServer::AUTOWRAP_WORD_SMART);
-	tpl_label->set_text(TTR("Godot Engine relies on a number of third-party free and open source libraries, all compatible with the terms of its MIT license. The following is an exhaustive list of all such third-party components with their respective copyright statements and license terms."));
+	tpl_label->set_text(TTR("Just a Game Engine relies on a number of third-party free and open source libraries, all compatible with the terms of its MIT license. The following is an exhaustive list of all such third-party components with their respective copyright statements and license terms."));
 	tpl_label->set_size(Size2(630, 1) * EDSCALE);
 	license_thirdparty->add_child(tpl_label);
 

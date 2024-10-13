@@ -1774,7 +1774,7 @@ msgstr "Luo kansio"
 msgid "Folder name is valid."
 msgstr "Kansion nimi on validi."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Kiitos Godot-yhteisöltä!"
 
 msgid "Godot Engine contributors"
@@ -1821,7 +1821,7 @@ msgid "Third-party Licenses"
 msgstr "Kolmannen osapuolen lisenssit"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -3314,7 +3314,7 @@ msgstr "Ehdota ominaisuutta"
 msgid "Send Docs Feedback"
 msgstr "Lähetä palautetta ohjeesta"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Tue Godotin kehitystä"
 
 msgid "Update Continuously"

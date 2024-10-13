@@ -1054,7 +1054,7 @@ msgstr "Папката не може да бъде създадена."
 msgid "Create Folder"
 msgstr "Създаване на папка"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Благодарности от общността на Godot!"
 
 msgid "Project Founders"

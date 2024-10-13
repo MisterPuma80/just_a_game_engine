@@ -1526,7 +1526,7 @@ msgstr "Vytvoriť adresár"
 msgid "Folder name is valid."
 msgstr "Názov priečinku je platný."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Vďaka z Godot komunity!"
 
 msgid "Godot Engine contributors"
@@ -1567,7 +1567,7 @@ msgid "Third-party Licenses"
 msgstr "Thirdparty Licencie"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -2919,7 +2919,7 @@ msgstr "Navrhnúť funkcionalitu"
 msgid "Send Docs Feedback"
 msgstr "Poslať spätnú väzbu Dokumentácie"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Podporte vývoj Godot"
 
 msgid "Update Continuously"

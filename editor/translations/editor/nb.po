@@ -1047,7 +1047,7 @@ msgstr "Kunne ikke opprette mappe."
 msgid "Create Folder"
 msgstr "Opprett mappe"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Takk fra Godot-samfunnet!"
 
 msgid "Godot Engine contributors"

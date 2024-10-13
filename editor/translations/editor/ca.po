@@ -1612,7 +1612,7 @@ msgstr "No s'ha pogut crear el directori."
 msgid "Create Folder"
 msgstr "Crea un Directori"
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Gràcies de la part de la Comunitat del Godot!"
 
 msgid "Godot Engine contributors"
@@ -1653,7 +1653,7 @@ msgid "Third-party Licenses"
 msgstr "Llicències de Tercers"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -2530,7 +2530,7 @@ msgstr "Suggerir una Característica"
 msgid "Send Docs Feedback"
 msgstr "Enviar suggeriments sobre la Documentació"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Contribueix al Desenvolupament de Godot"
 
 msgid "Update Continuously"

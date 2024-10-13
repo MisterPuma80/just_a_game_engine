@@ -2127,7 +2127,7 @@ msgstr "Имя папки является допустимым."
 msgid "Double-click to open in browser."
 msgstr "Двойной клик для открытия в браузере."
 
-msgid "Thanks from the Godot community!"
+msgid "Thanks from the Just a Game Engine community!"
 msgstr "Спасибо от сообщества Godot!"
 
 msgid "(unknown)"
@@ -2193,7 +2193,7 @@ msgid "Third-party Licenses"
 msgstr "Сторонние лицензии"
 
 msgid ""
-"Godot Engine relies on a number of third-party free and open source "
+"Just a Game Engine relies on a number of third-party free and open source "
 "libraries, all compatible with the terms of its MIT license. The following is "
 "an exhaustive list of all such third-party components with their respective "
 "copyright statements and license terms."
@@ -4187,10 +4187,10 @@ msgstr "Предложить функцию"
 msgid "Send Docs Feedback"
 msgstr "Отправить отзыв о документации"
 
-msgid "About Godot..."
+msgid "About Just a Game Engine..."
 msgstr "О программе Godot…"
 
-msgid "Support Godot Development"
+msgid "Support Just a Game Engine"
 msgstr "Поддержать разработку Godot"
 
 msgid ""
