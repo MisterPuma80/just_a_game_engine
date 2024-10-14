@@ -22,7 +22,7 @@ git clone https://github.com/MisterPuma80/just_a_game_engine
 scons platform=linuxbsd target=editor dev_build=no tests=yes linker=mold -j 16
 ```
 
-# Build export templates¶
+# Build export templates
 
 ```sh
 scons platform=linuxbsd target=template_release linker=mold -j 16
