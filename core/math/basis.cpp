@@ -1051,11 +1051,11 @@ Basis Basis::looking_at(const Vector3 &p_target, const Vector3 &p_up, bool p_use
 
 	// Find an up vector that we can rotate around
 	Vector3 up = p_up;
-	if (! up.is_finite()) {
+	if (!up.is_finite()) {
 		static const Vector3 up_candidates[3] = { Vector3(0, 1, 0), Vector3(1, 0, 0), Vector3(0, 0, 1) };
 		for (const Vector3 candidate : up_candidates) {
 			Vector3 v_x = candidate.cross(v_z).normalized();
-			if (! v_x.is_zero_approx()) {
+			if (!v_x.is_zero_approx()) {
 				up = candidate;
 				break;
 			}
