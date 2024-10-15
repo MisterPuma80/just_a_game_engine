@@ -326,7 +326,7 @@ Transform3D PathFollow3D::correct_posture(Transform3D p_transform, PathFollow3D:
 		Vector3 tangent = -t.basis.get_column(2);
 
 		// Y-axis points up by default.
-		t.basis = Basis::looking_at(tangent);
+		t.basis = Basis::looking_at(tangent, Vector3(INFINITY, INFINITY, INFINITY));
 	} else {
 		// Lock some euler axes.
 		Vector3 euler = t.basis.get_euler_normalized(EulerOrder::YXZ);

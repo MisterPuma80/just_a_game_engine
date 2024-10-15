@@ -1042,13 +1042,27 @@ void Basis::rotate_sh(real_t *p_values) {
 Basis Basis::looking_at(const Vector3 &p_target, const Vector3 &p_up, bool p_use_model_front) {
 #ifdef MATH_CHECKS
 	ERR_FAIL_COND_V_MSG(p_target.is_zero_approx(), Basis(), "The target vector can't be zero.");
-	ERR_FAIL_COND_V_MSG(p_up.is_zero_approx(), Basis(), "The up vector can't be zero.");
+	ERR_FAIL_COND_V_MSG(p_up.is_finite() && p_up.is_zero_approx(), Basis(), "The up vector can't be zero.");
 #endif
 	Vector3 v_z = p_target.normalized();
 	if (!p_use_model_front) {
 		v_z = -v_z;
 	}
-	Vector3 v_x = p_up.cross(v_z);
+
+	// Find an up vector that we can rotate around
+	Vector3 up = p_up;
+	if (! up.is_finite()) {
+		static const Vector3 up_candidates[3] = { Vector3(0, 1, 0), Vector3(1, 0, 0), Vector3(0, 0, 1) };
+		for (const Vector3 candidate : up_candidates) {
+			Vector3 v_x = candidate.cross(v_z).normalized();
+			if (! v_x.is_zero_approx()) {
+				up = candidate;
+				break;
+			}
+		}
+	}
+
+	Vector3 v_x = up.cross(v_z);
 #ifdef MATH_CHECKS
 	ERR_FAIL_COND_V_MSG(v_x.is_zero_approx(), Basis(), "The target vector and up vector can't be parallel to each other.");
 #endif

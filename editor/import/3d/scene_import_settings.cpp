@@ -1735,7 +1735,7 @@ SceneImportSettingsDialog::SceneImportSettingsDialog() {
 	camera->set_environment(environment);
 
 	light1 = memnew(DirectionalLight3D);
-	light1->set_transform(Transform3D(Basis::looking_at(Vector3(-1, -1, -1))));
+	light1->set_transform(Transform3D(Basis::looking_at(Vector3(-1, -1, -1), Vector3(INFINITY, INFINITY, INFINITY))));
 	light1->set_shadow(true);
 	camera->add_child(light1);
 
