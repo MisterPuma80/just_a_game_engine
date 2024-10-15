@@ -1039,17 +1039,17 @@ void Basis::rotate_sh(real_t *p_values) {
 	p_values[8] = d4 * s_scale_dst4;
 }
 
-Basis Basis::looking_at(const Vector3 &p_target, const Vector3 &p_up, bool p_use_model_front) {
+Basis Basis::looking_at(const Vector3 &p_forward, const Vector3 &p_up, bool p_use_model_front) {
 #ifdef MATH_CHECKS
 	ERR_FAIL_COND_V_MSG(p_up.is_finite() && p_up.is_zero_approx(), Basis(), "The up vector can't be zero.");
 #endif
 
-	// Just return if direction is zero
-	if (p_target.is_zero_approx()) {
+	// Just return if forward is zero
+	if (p_forward.is_zero_approx()) {
 		return Basis();
 	}
 
-	Vector3 v_z = p_target.normalized();
+	Vector3 v_z = p_forward.normalized();
 	if (!p_use_model_front) {
 		v_z = -v_z;
 	}
