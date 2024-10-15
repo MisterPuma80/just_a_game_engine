@@ -143,7 +143,7 @@ TEST_CASE("[SceneTree][Camera3D] Position queries") {
 		// The orthogonal case is simpler, so we test a more random position + rotation combination here.
 		// For the other cases we'll use zero translation and rotation instead.
 		test_camera->set_global_position(Vector3(1, 2, 3));
-		test_camera->look_at(Vector3(-4, 5, 1));
+		test_camera->look_at(Vector3(-4, 5, 1), Vector3(INFINITY, INFINITY, INFINITY));
 		// Width = 5, Aspect Ratio = 400 / 200 = 2, so Height is 2.5.
 		test_camera->set_orthogonal(5.0f, 0.5f, 1000.0f);
 		const Basis basis = test_camera->get_global_basis();
