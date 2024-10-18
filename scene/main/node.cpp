@@ -2000,8 +2000,8 @@ TypedArray<Node> Node::find_children_cache_no_recursion(const String &p_pattern,
 		bool is_type_match = is_type_empty || entry->is_class(p_type);
 		bool is_script_type_match = false;
 		if (!is_type_match) {
-			if (ScriptInstance *script_instance = entry->get_script_instance()) {
-				Ref<Script> scr = script_instance->get_script();
+			if (ScriptInstance *script_inst = entry->get_script_instance()) {
+				Ref<Script> scr = script_inst->get_script();
 				while (scr.is_valid()) {
 					if ((is_type_global_class && type_global_path == scr->get_path()) || p_type == scr->get_path()) {
 						is_script_type_match = true;
