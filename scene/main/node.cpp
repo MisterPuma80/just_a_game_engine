@@ -1710,10 +1710,52 @@ TypedArray<Node> Node::get_children(bool p_include_internal) const {
 }
 
 TypedArray<Node> Node::recursively_get_all_children() const {
-	return this->find_children_cache_no_recursion("*", "", true, false);
+///*
+	uint64_t start, end;
+
+	start = OS::get_singleton()->get_ticks_usec();
+	auto a = this->find_children("*", "", true, false);
+	end = OS::get_singleton()->get_ticks_usec();
+	fprintf(stderr, "!!!!: find_children:%lu usec\n", end - start);
+
+	//start = OS::get_singleton()->get_ticks_usec();
+	//auto b = this->find_children_cache("*", "", true, false);
+	//end = OS::get_singleton()->get_ticks_usec();
+	//fprintf(stderr, "ZZZZ: find_children_cache:%lu usec\n", end - start);
+
+	start = OS::get_singleton()->get_ticks_usec();
+	auto c = this->find_children_cache_no_recursion("*", "", true, false);
+	end = OS::get_singleton()->get_ticks_usec();
+	fprintf(stderr, "!!!!: find_children_w_data_cache_and_no_recursion:%lu usec\n", end - start);
+
+	fflush(stderr);
+
+	return c;
+//*/
+	//return this->find_children_cache_no_recursion("*", "", true, false);
 }
 
 TypedArray<Node> Node::recursively_get_all_children_of_type(const StringName &p_type) const {
+	//ERR_THREAD_GUARD_V(TypedArray<Node>());
+	//return this->find_children("*", p_type, true, false);
+/*
+	uint64_t start, end;
+	start = OS::get_singleton()->get_ticks_usec();
+	auto a = this->find_children("*", p_type, true, false);
+	end = OS::get_singleton()->get_ticks_usec();
+	fprintf(stderr, "ZZZZ: find_children:%lu\n", end - start);
+	start = OS::get_singleton()->get_ticks_usec();
+	auto b = this->find_children_cache("*", p_type, true, false);
+	end = OS::get_singleton()->get_ticks_usec();
+	fprintf(stderr, "ZZZZ: find_children_cache:%lu\n", end - start);
+	start = OS::get_singleton()->get_ticks_usec();
+	auto c = this->find_children_cache_no_recursion("*", p_type, true, false);
+	end = OS::get_singleton()->get_ticks_usec();
+	fprintf(stderr, "ZZZZ: find_children_cache_no_recursion:%lu\n", end - start);
+	fflush(stderr);
+	return c;
+*/
+
 	return this->find_children("*", p_type, true, false);
 }
 
@@ -1971,19 +2013,21 @@ TypedArray<Node> Node::find_children_cache_no_recursion(const String &p_pattern,
 	TypedArray<Node> matches;
 	ERR_FAIL_COND_V(p_pattern.is_empty() && p_type.is_empty(), matches);
 
+	// Save basic pattern and type info for faster lookup
 	bool is_pattern_empty = p_pattern.is_empty();
 	bool is_type_empty = p_type.is_empty();
 	bool is_type_global_class = !is_type_empty && ScriptServer::is_global_class(p_type);
-	String type_global_path = (is_type_global_class) ? ScriptServer::get_global_class_path(p_type) : "";
+	String type_global_path = is_type_global_class ? ScriptServer::get_global_class_path(p_type) : "";
 
 	TypedArray<Node> to_search;
 	to_search.append(this);
+	bool is_adding_children = true;
 	while (!to_search.is_empty()) {
 		Node *entry = Object::cast_to<Node>(to_search.pop_front());
 
 		// Add all the children to the list to search
 		entry->_update_children_cache();
-		{
+		if (is_adding_children) {
 			Node *const *cptr = entry->data.children_cache.ptr();
 			int ccount = entry->data.children_cache.size();
 			for (int i = 0; i < ccount; i++) {
@@ -1992,6 +2036,11 @@ TypedArray<Node> Node::find_children_cache_no_recursion(const String &p_pattern,
 				}
 
 				to_search.append(cptr[i]);
+			}
+
+			// Stop further child adding if we don't want recursive
+			if (!p_recursive) {
+				is_adding_children = false;
 			}
 		}
 
@@ -2013,6 +2062,7 @@ TypedArray<Node> Node::find_children_cache_no_recursion(const String &p_pattern,
 			}
 		}
 
+		// Save it if it matches the pattern and at least one type
 		if (is_pattern_match && (is_type_match || is_script_type_match)) {
 			matches.append(entry);
 		}
