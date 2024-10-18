@@ -1751,7 +1751,7 @@ TypedArray<Node> Node::recursively_get_all_children_in_groups(TypedArray<StringN
 
 		TypedArray<Node> children = entry->get_children();
 		int ccount = children.size();
-		for (int i=0; i<ccount; i++) {
+		for (int i = 0; i < ccount; i++) {
 			to_search.append(children[i]);
 		}
 
